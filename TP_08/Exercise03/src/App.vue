@@ -19,8 +19,9 @@
 }
 
 #nav {
-    height: 14%;
+    height: 20%;
     width: 100%;
+    border: 1px solid black;
 
     display: flex;
     justify-content: space-between;
@@ -31,6 +32,7 @@
 .logo {
     display: flex;
     height: 100%;
+    gap: 1rem;
     /* background-color: red; */
     align-items: center;
 }
@@ -61,11 +63,11 @@
     justify-content: center;
     align-items: center;
 
-    background-color: #fff;
+    background-color: #907f7f;
 }
 
 .menu>*:hover {
-    background-color: #d7d7d7;
+    background-color: #55e911;
 }
 
 
@@ -81,13 +83,13 @@
     font-size: 1.3rem;
     text-decoration: none;
     font-weight: bold;
-    color:  rgb(232, 111, 179);
+    color:  rgb(236, 138, 19);
 }
 
 
 .search-logout img:hover{
     cursor: pointer;
-    background-color: #e9e9e9;
+    background-color: #e7a5a5;
 
 }
 
